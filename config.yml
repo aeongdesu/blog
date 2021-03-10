@@ -1,0 +1,74 @@
+baseURL: "https://ksp.now.sh"
+title: KSP Blog
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+outputs:
+   home:
+     - HTML
+     - RSS
+     - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: KSP Blog
+    description: "심심할때 올리는 블로그."
+    author: KeepSOBP
+    defaultTheme: auto
+    ShowReadingTime: true
+    comments: true
+    hidemeta: false
+    showtoc: true
+    tocopen: false
+
+    assets:
+        favicon: "favicon.ico"
+
+    label:
+        text: "🍞"
+
+    # home-info mode
+    homeInfoParams:
+        Title: "어서오세요! 👋"
+        Content: >
+             *비누 블로그에 오신걸 환영합니다.*
+
+
+             **Written by [@KeepSOBP](about/)**
+
+
+    socialIcons:
+        - name: twitch
+          url: "https://twitch.tv/keepsobp"
+        - name: youtube
+          url: "https://youtube.com/c/keepsobp"
+        - name: github
+          url: "https://github.com/keepsobp"
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+menu:
+    main:
+        - name: 검색
+          url: search/
+        - name: 카테고리
+          url: categories/
+        - name: 태그
+          url: tags/
