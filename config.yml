@@ -39,11 +39,9 @@ params:
     homeInfoParams:
         Title: "어서오세요! 👋"
         Content: >
-             *비누 블로그에 오신걸 환영합니다.*
+             *비누 블로그에 오신걸 환영합니다.*\
 
-
-             **Written by [@KeepSOBP](about/)**
-
+             Written by [@KeepSOBP](about/)
 
     socialIcons:
         - name: twitch
