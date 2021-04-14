@@ -11,7 +11,7 @@ cover:
 # 잡담
 ...커버 이미지를 보셨다시피, 새로운 UI가 [Spotify web](https://open.spotify.com) 버전이 아닌, 클라이언트에서도 적용시킬 수가 있습니다.
 
-[Spicetify](https://github.com/khanhas/spicetify-cli) 같은 커스터마이징 안깔아도 돼고, 최신 버전이라면 애초에 이미 새로운 UI를 적용할 수 있는 방법이 있긴합니다;;
+[Spicetify](https://github.com/khanhas/spicetify-cli) 같은 커스터마이징 툴을 안깔아도 돼고, 최신 버전이라면 애초에 이미 새로운 UI를 적용할 수 있는 방법이 있긴합니다;;
 
 빠르게 설정방법으로 넘어가죠.
 
