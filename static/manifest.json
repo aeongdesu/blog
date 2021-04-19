@@ -1,0 +1,9 @@
+{
+  "name": "KeepSOBP's Blog",
+  "short_name": "KSP Blog",
+  "theme_color": "#7adda8",
+  "background_color": "rgba(255,255,255,255)",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/"
+}
