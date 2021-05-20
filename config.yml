@@ -28,6 +28,7 @@ params:
     hidemeta: false
     showtoc: true
     tocopen: false
+    comments: true
 
     assets:
         favicon: "favicon.ico"
