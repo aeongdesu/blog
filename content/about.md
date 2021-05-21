@@ -4,6 +4,7 @@ description: "비누(KeepSOBP)가 누구죠?"
 searchHidden: true
 ShowToc: false
 ShowReadingTime: false
+comments: false
 ---
 
 ## 안녕하세요! 👋
