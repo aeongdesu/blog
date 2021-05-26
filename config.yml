@@ -1,5 +1,5 @@
-baseURL: "https://blog.c01.kr"
-title: KSP Blog
+baseURL: "https://ksp.c01.kr"
+title: KSP's Story
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -19,8 +19,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: KSP Blog
-    description: "심심할때 올리는 블로그."
+    title: KSP's Story
+    description: "심심할때 올리는 곳."
     author: KeepSOBP
     defaultTheme: auto
     ShowReadingTime: true
@@ -40,7 +40,7 @@ params:
     homeInfoParams:
         Title: "어서오세요! 👋"
         Content: >
-             *비누 블로그에 오신걸 환영합니다.*\
+             *비누 스토리에 오신걸 환영합니다.*\
 
              Written by [@KeepSOBP](about/)
 
