@@ -51,6 +51,11 @@ params:
           url: "https://youtube.com/c/keepsobp"
         - name: github
           url: "https://github.com/keepsobp"
+        - name: discord
+          url: "https://dsc.gg/nyan"
+        - name: buymeacoffee
+          url: "https://toss.me/bread"
+
 
     # for search
     # https://fusejs.io/api/options.html
