@@ -71,8 +71,10 @@ params:
 menu:
     main:
         - name: 검색
-          url: search/
+          url: /search
         - name: 카테고리
-          url: categories/
+          url: /categories
         - name: 태그
-          url: tags/
+          url: /tags
+        - name: 아카이브
+          url: /archives
