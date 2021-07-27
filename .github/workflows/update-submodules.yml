@@ -16,8 +16,7 @@ jobs:
           depth: 1
           submodules: recursive
 
-      - run: |
-            git submodule update --remote --merge
+      - run: git submodule foreach git pull
 
       - name: Commit files
         run: |
