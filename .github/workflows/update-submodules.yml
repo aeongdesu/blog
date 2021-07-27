@@ -9,6 +9,7 @@ on:
 jobs:
   update-submodules:
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - name: Checkout repository and submodules
         uses: actions/checkout@v2
