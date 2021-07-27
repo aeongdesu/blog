@@ -1,3 +1,5 @@
+name: Update submodules
+
 on:
   schedule:
   - cron: '*/5 * * * *'
@@ -5,7 +7,6 @@ on:
 
 jobs:
   update-submodules:
-
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository and submodules
@@ -13,13 +14,13 @@ jobs:
         with:
           submodules: recursive
 
-      - uses: git submodule update --init --recursive
+      - run: git submodule update --init --recursive
 
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "chore(submodules): update theme" -a
+          git commit -m "chore(submodules): update submodules" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
