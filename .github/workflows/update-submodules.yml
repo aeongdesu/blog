@@ -13,9 +13,11 @@ jobs:
       - name: Checkout repository and submodules
         uses: actions/checkout@v2
         with:
-          submodules: true
+          submodules: recursive
 
-      - run: git submodule update --remote --merge
+      - run: |
+            git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
+            git submodule update --init --recursive 
 
       - name: Commit files
         run: |
