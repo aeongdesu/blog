@@ -13,10 +13,10 @@ jobs:
       - name: Checkout repository and submodules
         uses: actions/checkout@v2
         with:
-          depth: 1
+          fetch-depth: 1
           submodules: recursive
 
-      - run: git submodule foreach git pull
+      - run: git submodule update --remote
 
       - name: Commit files
         run: |
