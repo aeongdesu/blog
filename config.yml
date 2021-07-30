@@ -22,6 +22,7 @@ params:
     title: KSP's Story
     description: "심심할때 올리는 곳."
     author: KeepSOBP
+    images: ["https://cdn.statically.io/og/theme=dark/KeepSOBP's%20Blog%20%F0%9F%93%9D.png", "https://cdn.statically.io/og/KeepSOBP's%20Blog%20%F0%9F%93%9D.png"]
     defaultTheme: auto
     ShowReadingTime: true
     comments: true
@@ -31,7 +32,7 @@ params:
     comments: true
 
     assets:
-        favicon: "favicon.ico"
+        favicon: "https://cdn.statically.io/gh/keepsobp/blog/main/static/favicon.ico"
 
     label:
         text: "🍞"
