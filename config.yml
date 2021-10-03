@@ -53,7 +53,7 @@ params:
         - name: github
           url: "https://github.com/keepsobp"
         - name: discord
-          url: "https://dsc.gg/nyan"
+          url: "https://discord.deta.dev"
         - name: buymeacoffee
           url: "https://toss.me/bread"
 
