@@ -9,7 +9,7 @@ cover:
 ---
 
 # 시작하기 전
-이미 국내에서는 [TwitchMod](https://t.me/pubTw) 앱이 입소문을 타고 있긴 한데, 제가 이 앱 대신 다른 앱을 소개시키는 이유는 [bttv-android는 광고 제거기가 없기 때문입니다.](https://github.com/bttv-android/bttv/issues/87#issuecomment-855405919)
+이미 국내에서는 [TwitchMod](https://t.me/pubTw) 앱이 입소문을 타고 있긴 한데, 제가 다른 앱을 소개시키는 이유는 [bttv-android는 광고 제거기가 없기 때문입니다.](https://github.com/bttv-android/bttv/issues/87#issuecomment-855405919)
 
 대충 이후 발생할 피해 및 유지보수로 인하여 기능이 없다고는 합니다만, ~~어차피 둘 다 트위치 공식 앱 개조한건데 굳이 따지려나 싶습니다~~
 
