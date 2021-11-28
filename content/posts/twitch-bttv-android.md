@@ -5,7 +5,7 @@ description: "해외 트수들이 사용하는 서드파티 이모트를 안드�
 tags: ["bttv-android", "BetterTTV", "FrankerFaceZ", "7TV", "이모트", "설치법"]
 categories: ["강좌"]
 cover:
-  image: "https://nyan.shx.gg/cA2E9C.png"
+  image: "https://cdn.statically.io/gh/bttv-android/bttv/master/.github/bttvog.jpg"
 ---
 
 # 시작하기 전
