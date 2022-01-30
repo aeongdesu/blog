@@ -1,5 +1,5 @@
-baseURL: "https://ksp.c01.kr"
-title: KSP's Story
+baseURL: "https://blog.aeong.one"
+title: AeongStory
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -19,10 +19,10 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: KSP's Story
+    title: AeongStory
     description: "심심할때 올리는 곳."
-    author: KeepSOBP
-    images: ["https://cdn.statically.io/og/theme=dark/KeepSOBP's%20Blog%20%F0%9F%93%9D.png", "https://cdn.statically.io/og/KeepSOBP's%20Blog%20%F0%9F%93%9D.png"]
+    author: aeongdesu
+    images: ["https://cdn.statically.io/og/theme=dark/AeongStory%20%F0%9F%93%9D.png"]
     defaultTheme: auto
     ShowReadingTime: true
     comments: true
@@ -32,7 +32,7 @@ params:
     comments: true
 
     assets:
-        favicon: "https://cdn.statically.io/gh/keepsobp/blog/main/static/favicon.ico"
+        favicon: "https://cdn.statically.io/gh/aeongdesu/blog/main/static/favicon.ico"
 
     label:
         text: "🍞"
@@ -41,17 +41,17 @@ params:
     homeInfoParams:
         Title: "어서오세요! 👋"
         Content: >
-             *비누 스토리에 오신걸 환영합니다.*\
+             *애옹스토리에 오신걸 환영합니다.*\
 
-             Written by [@KeepSOBP](about/)
+             Written by [@aeongdesu](about/)
 
     socialIcons:
         - name: twitch
-          url: "https://twitch.tv/keepsobp"
+          url: "https://twitch.tv/aeongdesu"
         - name: youtube
           url: "https://youtube.com/c/keepsobp"
         - name: github
-          url: "https://github.com/keepsobp"
+          url: "https://github.com/aeongdesu"
         - name: discord
           url: "https://discord.deta.dev"
         - name: buymeacoffee
