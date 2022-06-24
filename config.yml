@@ -29,7 +29,6 @@ params:
     hidemeta: false
     showtoc: true
     tocopen: false
-    comments: true
 
     assets:
         favicon: "https://cdn.statically.io/gh/aeongdesu/blog/main/static/favicon.ico"
@@ -47,9 +46,7 @@ params:
 
     socialIcons:
         - name: twitch
-          url: "https://twitch.tv/aeongdesu"
-        - name: youtube
-          url: "https://youtube.com/c/keepsobp"
+          url: "https://twitch.tv/aeong___"
         - name: github
           url: "https://github.com/aeongdesu"
         - name: discord
